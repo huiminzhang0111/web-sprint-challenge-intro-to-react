@@ -4,7 +4,7 @@ import axios from 'axios'
 export default function Details(props) {
     const { characterUrl, close } = props;
     const [details, setDetails] = useState(null);
-    console.log(characterUrl)
+    //console.log(characterUrl)
     useEffect(() => {
         //console.log(`Fetching the character with id ${characterUrl}`);
         axios.get(`${characterUrl}`)
