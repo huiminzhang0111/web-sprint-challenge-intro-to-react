@@ -4,5 +4,13 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 100px;
+}
+
+.p {
+  font-size: 20px;
 }
 /* write your parent styles in here for your App.js */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
